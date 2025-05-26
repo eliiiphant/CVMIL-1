@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&display=swap');
+
 @import 'tailwindcss';
-@plugin '@tailwindcss/forms';
-@plugin '@tailwindcss/typography';
+
+@theme {
+    --font-title: "Press Start 2P", monospace;
+    --font-pixel: "Jersey 10", monospace; 
+
+    --color-minion-yellow-50  : #fefce8;
+    --color-minion-yellow-100 : #fef8c3;
+    --color-minion-yellow-200 : #fded8b;
+    --color-minion-yellow-300 : #fcdf59;
+    --color-minion-yellow-400 : #f8c717;
+    --color-minion-yellow-500 : #e8ae0a;
+    --color-minion-yellow-600 : #c98505;
+    --color-minion-yellow-700 : #a05f08;
+    --color-minion-yellow-800 : #844b0f;
+    --color-minion-yellow-900 : #703d13;
+    --color-minion-yellow-950 : #421f06;
+    --color-minion-red : #e64022;
+}
