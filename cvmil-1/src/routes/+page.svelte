@@ -210,7 +210,7 @@
                 <div class="flex flex-1 items-center justify-center w-full px-4">
 
                     <p class="font-pixel text-lg text-minion-red text-center">
-                        An error happened during prediction. <br> CVMIL-1 says sorry.
+                        An error happened during prediction. <br> Team CVMIL #1 says sorry.
                     </p>
                 </div>
             {/if}
@@ -224,7 +224,7 @@
 
 <div class="overflow-hidden h-screen w-screen flex flex-col items-center justify-center gap-5 sm:gap-3 bg-gradient">
     <p class="font-title text-4xl sm:text-6xl text-minion-yellow-950">
-        CVMIL-1
+        CVMIL #1
     </p>
 
     <div
