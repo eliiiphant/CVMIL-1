@@ -206,9 +206,14 @@
                 </ul>
             </div>
 
-        {:else if form && (!form.success || !form.prediction) }
-            <p class="font-pixel text-lg text-minion-red">An error happened during prediction. <br> CVMIL-1 says sorry.</p>
-        {/if}
+            {:else if form && (!form.success || !form.prediction) }
+                <div class="flex flex-1 items-center justify-center w-full px-4">
+
+                    <p class="font-pixel text-lg text-minion-red text-center">
+                        An error happened during prediction. <br> CVMIL-1 says sorry.
+                    </p>
+                </div>
+            {/if}
 
         <!-- Reset Button -->
         <div class="absolute bottom-0 right-0">
