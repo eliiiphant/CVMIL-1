@@ -13,7 +13,7 @@
     class="
         w-fit
         bg-minion-yellow-300 border-4 border-minion-yellow-950 hover:border-minion-yellow-800 active:border-minion-yellow-800 disabled:bg-gray-200 disabled:border-gray-400
-        text-lg font-medium font-pixel text-minion-yellow-950
+        text-lg font-medium font-pixel text-minion-yellow-950 disabled:text-gray-400
         px-3
         rounded-none
         transition delay-150 duration-300 ease-in-out
