@@ -3,5 +3,5 @@ babanana babananana
 
 ## To install prerequisites:
 ```bash
-pip install -r environment/requirements.txt
+pip install -r requirements.txt
 ```
